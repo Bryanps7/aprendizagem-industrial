@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255, 0.71);
+}

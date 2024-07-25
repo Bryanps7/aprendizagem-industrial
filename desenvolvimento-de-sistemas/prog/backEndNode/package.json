@@ -1,0 +1,14 @@
+{
+  "name": "backendnode",
+  "version": "1.0.0",
+  "description": "exercicios intuitivos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryan Prinz",
+  "license": "ISC",
+  "devDependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

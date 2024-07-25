@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(to top left, blue,rgb(5, 132, 222),rgb(16, 170, 16), rgb(2, 105, 2));
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+input, button{
+    background-color: black;
+    color: white;
+    min-height: 40px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+}
+
+input::placeholder{
+    color: green;
+    text-align: center;
+}

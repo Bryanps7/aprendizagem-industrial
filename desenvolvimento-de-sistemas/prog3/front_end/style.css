@@ -1,0 +1,20 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: burlywood;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    text-decoration:dotted;
+}

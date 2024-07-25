@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="temperaturas.png" type="image/x-icon">
+    <link rel="stylesheet" href="temperatura.css">
+    <script src="temperatura.js" defer></script>
+    <title>C° - F°</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Conversor de temperatura</h1><hr><br>
+        <label for="numero">Insira a temperatura em Grau Celsius</label><br><br>
+        <input type="number" id="numero" placeholder="Celsius"><br><br>
+        <button onclick="resultado()" class="glow-on-hover" type="button">Converte</button><br><br>
+        <div id="resposta"></div><hr>
+        <br>
+        <label for="numero2">Insira a temperatura em Fahrenheit</label><br><br>
+        <input type="number" id="numero2" placeholder="Fahrenheit"><br><br>
+        <button onclick="resultado2()" class="glow-on-hover" type="button">Converte</button><br><br>
+        <div id="resposta2"></div>
+    </div>
+</body>
+</html>

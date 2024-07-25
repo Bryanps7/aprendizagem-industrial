@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lojaRoupa.css">
+    <script src="lojaRoupa.js" defer></script>
+    <link rel="shortcut icon" href="img/Moda.png" type="image/x-icon">
+    <title>Moda Sem Limite</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Loja de vestuário</h1><hr><br>
+        <div class="caixao">
+            <div class="box2">
+                <h2><b>Bermuda Leg</b></h2>
+                <img src="img/bermuda.jpg" alt="" class="roblox">
+                <label for="bermuda">Digite a quantidade de <span class="vestuário">bermuda</span></label><br><br>
+                <input type="number" id="bermuda" placeholder="bermuda" class="inserir"><br><br>
+            </div>
+            <div class="box2">
+                <h2><b>Camisa</b></h2>
+                <img src="img/camisa.jfif" alt="" class="roblox">
+                <label for="camisa">Digite a quantidade de <span class="vestuário">camisa</span></label><br><br>
+                <input type="number" id="camisa" placeholder="camisa" class="inserir"><br><br>
+            </div>
+            <div class="box2">
+                <h2><b>Tênis feminino</b></h2>
+                <img src="img/tenis.webp" alt="" class="roblox">
+                <label for="tenis">Digite a quantidade de <span class="vestuário">tênis</span></label><br><br>
+                <input type="number" id="tenis" placeholder="tenis" class="inserir"><br><br>
+            </div>
+        </div><br><br>
+    
+
+        <button onclick="calcular()" class="btn btn-white btn-animate" type="button">Calcular preço</button>
+        <br><br>
+        <div id="resposta"></div>
+    </div>
+</body>
+</html>
